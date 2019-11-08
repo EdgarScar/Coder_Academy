@@ -1,6 +1,7 @@
 # the_repository_depository
 
-These are my **changes!** 
+##Week 1 - 17/10/2019
+- Name (string interpolation)
+- Bar Tender App (manipulating user input)
 
-These are my **second changes!**
-Making changes
+
