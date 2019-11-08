@@ -4,6 +4,7 @@
 - Name                  (string interpolation)
 - Bar Tender App        (manipulating user input)
 - Morning Challenge     (string interpolation)
+
 ##Week 2 - 24/10/2019
 - Dice                  (Random number generation)
 - High Score Spaceship  (using spaceship object)
