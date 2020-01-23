@@ -1,18 +1,28 @@
+# Scissors, Paper, Rock 
+
+# Two variables are defined to keep score of each player. 
 player_1_count = 0
 player_2_count = 0
 
+# An 'Until' loop will end the game when the score variable of either player reaches 3 wins. 
 until player_1_count >= 3 || player_2_count >= 3
-
+    
+    # A 'While' loop will continue to prompt the user to enter their decision until their input is only one character in length. 
     p1_input = ""
     while p1_input.length != 1
+    # The first player is prompted to enter their decision. 
     puts "\n Player 1, choose rock (r), paper (p), or scissors (s):"
     p1_input = gets.chomp.downcase
     end 
 
+    # The screen is cleared to prevent the second player from viewing the decision of the first player. 
     system("clear")
 
+    # A 'While' loop will continue to prompt the user to enter their 
+    # decision until their input is only one character in length. 
     p2_input = ""
     while p2_input.length != 1
+    #The second player is prompted to enter their decision. 
     puts "\n Player 2, choose rock (r), paper (p), or scissors (s):"
     p2_input = gets.chomp.downcase
     end 
